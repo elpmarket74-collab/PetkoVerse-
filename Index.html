@@ -30,14 +30,6 @@
     </div>
   </section>
 
-  <!-- Upload Section (moved inside body) -->
-  <div id="uploadSection" class="card upload-card">
-    <h3>Upload Your Pet</h3>
-    <input type="file" id="petFileInput" accept="image/*">
-    <input type="text" id="petNameInput" placeholder="Pet Name">
-    <button id="uploadPetBtn">Upload & Awaken</button>
-  </div>
-
   <!-- Bottom Navigation -->
   <nav class="bottom-nav">
     <button id="btnFeed">Feed</button>
@@ -53,6 +45,13 @@
     <img id="uploadedPetImage" src="" alt="Uploaded Pet" style="width:200px; border-radius:16px;">
     <p id="awakeningText"></p>
     <button id="confirmAwakenBtn">Proceed to Awaken</button>
+  </div>
+
+  <div id="uploadSection">
+    <h3>Upload Your Pet</h3>
+    <input type="file" id="petFileInput" accept="image/*">
+    <input type="text" id="petNameInput" placeholder="Pet Name">
+    <button id="uploadPetBtn">Upload & Awaken</button>
   </div>
 
   <script src="app.js"></script>
